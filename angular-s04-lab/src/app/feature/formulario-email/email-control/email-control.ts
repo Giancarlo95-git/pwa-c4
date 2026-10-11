@@ -12,6 +12,6 @@ export class EmailControl {
   emailControl = new FormControl('', [Validators.required, Validators.email]);
 
   validar() {
-	this.emailControl.markAsTouched
+	this.emailControl.markAsTouched()
 }
 }
