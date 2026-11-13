@@ -1,5 +1,6 @@
 require('dotenv').config();
 const { crearApp } = require('./crear-app');
+
 async function iniciar() {
   const app = await crearApp();
   const puerto = Number(process.env.PORT || 3001);
